@@ -3,15 +3,28 @@ fun main() {
 
     val conta1 = Conta()
     conta1.titular = "Alex"
+    conta1.depositar(100.0)
 
     val conta2 = Conta()
     conta2.titular = "Fran"
+
+    println("Saldo Alex: ${conta1.saldo}")
 }
 
 class Conta{
     var titular = ""
     var numeroConta = 0
     var saldo = 0.0
+
+    fun depositar(valor: Double){
+        this.saldo += valor
+    }
+    fun sacar(){
+
+    }
+    fun transferir(){
+
+    }
 }
 
 fun testalacos(){
