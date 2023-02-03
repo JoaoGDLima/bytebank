@@ -11,6 +11,6 @@ class Gerente(
 
     override val bonificacao: Double
         get() {
-            return this.salario * 0.2
+            return super.bonificacao + salario
         }
 }
