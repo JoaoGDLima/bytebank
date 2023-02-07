@@ -1,3 +1,5 @@
+package teste
+
 fun testaCondicao(saldo: Double) {
     when {
         saldo > 0.0 -> println("conta é positiva")
