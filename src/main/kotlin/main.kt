@@ -1,6 +1,6 @@
-import teste.testaAutenticacao
+import br.com.alura.bytebank.teste.testaFuncionarios
 
 fun main() {
-    testaAutenticacao()
+    testaFuncionarios()
 }
 

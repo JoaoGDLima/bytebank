@@ -1,4 +1,4 @@
-package teste
+package br.com.alura.bytebank.teste
 
 fun testaLacos() {
     for (i in 1..5) {

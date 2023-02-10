@@ -1,6 +1,6 @@
-package modelo
+package br.com.alura.bytebank.modelo
 
-import modelo.Autenticavel
+import br.com.alura.bytebank.modelo.Autenticavel
 
 class SistemaInterno {
     fun entra(admin: Autenticavel, senha: Int) {
